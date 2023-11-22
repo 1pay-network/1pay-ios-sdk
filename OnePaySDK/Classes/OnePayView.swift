@@ -10,6 +10,12 @@ public struct OnePayView: UIViewControllerRepresentable {
     public let token: String
     public let note: String
     
+    public init(amount: Float, token: String, note: String) {
+        self.amount = amount
+        self.token = token
+        self.note = note
+    }
+    
     private var onSuccess: ((PaymentResponse) -> Void)? = nil
     private var onFail: ((PaymentResponse) -> Void)? = nil
     
