@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '14.2'
+
+target 'OnePaySDK_Example' do
+  pod 'OnePaySDK', :path => '../'
+
+  target 'OnePaySDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
