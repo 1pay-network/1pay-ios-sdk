@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 
 public struct PaymentResponse {
     public let hash: String?
