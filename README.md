@@ -36,6 +36,10 @@ Then run `pod install` command
 ```ruby
 pod install
 ```
+If any error appear, please update your local cocoapods repo first
+```ruby
+pod repo update
+```
 
 ### Swift Package Manager
 [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
