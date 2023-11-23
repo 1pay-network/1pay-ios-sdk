@@ -14,6 +14,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+For more information document, please visit [Document](https://1pay.network/documents)
+
 ## Requirements
 * iOS 13+
 * Swift 4.0+
