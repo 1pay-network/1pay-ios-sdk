@@ -6,10 +6,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        OnePay.initialize(
-            recipient: "0x8d70EC40AAd376aa6fD08e4CFD363EaC0AB2c174",
-            supportedTokens: ["usdt","usdc","dai"],
-            supportedNetworks: ["ethereum","arbitrum","optimism","bsc"])
     }
 
     @IBAction func onStartPressed(_ sender: Any) {

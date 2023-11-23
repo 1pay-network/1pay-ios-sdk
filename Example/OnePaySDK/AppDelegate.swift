@@ -1,4 +1,5 @@
 import UIKit
+import OnePaySDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -7,9 +8,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        OnePay.initialize(
+            recipient: "0x8d70EC40AAd376aa6fD08e4CFD363EaC0AB2c174",
+            supportedTokens: ["usdt","usdc","dai"],
+            supportedNetworks: ["ethereum","arbitrum","optimism","bsc"])
         return true
     }
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
