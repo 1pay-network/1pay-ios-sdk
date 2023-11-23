@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'OnePaySDK'
+  s.name             = '1PaySDK'
   s.version          = '1.0.0'
   s.summary          = 'OnePay.network SDK for Swift & SwiftUI'
 
@@ -24,6 +24,8 @@ Pod::Spec.new do |s|
   s.author           = { 'SunnV' => 'sunnv.dev@1pay.network' }
   s.source           = { :git => 'https://github.com/1pay-network/1pay-ios-sdk.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/1pay_network'
+  s.readme           = 'https://raw.githubusercontent.com/1pay-network/1pay-ios-sdk/main/README.md'
+  s.module_name      = 'OnePaySDK'
 
   s.ios.deployment_target = '13.0'
 

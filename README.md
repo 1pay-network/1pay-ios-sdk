@@ -6,9 +6,9 @@
 
 # 1Pay.network iOS SDK
 
-[![Version](https://img.shields.io/cocoapods/v/OnePaySDK.svg?style=flat)](https://cocoapods.org/pods/OnePaySDK)
-[![License](https://img.shields.io/cocoapods/l/OnePaySDK.svg?style=flat)](https://cocoapods.org/pods/OnePaySDK)
-[![Platform](https://img.shields.io/cocoapods/p/OnePaySDK.svg?style=flat)](https://cocoapods.org/pods/OnePaySDK)
+[![Version](https://img.shields.io/cocoapods/v/1PaySDK.svg?style=flat)](https://cocoapods.org/pods/1PaySDK)
+[![License](https://img.shields.io/cocoapods/l/1PaySDK.svg?style=flat)](https://cocoapods.org/pods/1PaySDK)
+[![Platform](https://img.shields.io/cocoapods/p/1PaySDK.svg?style=flat)](https://cocoapods.org/pods/1PaySDK)
 
 ## Example
 
@@ -29,7 +29,7 @@ For more information document, please visit [Document](https://1pay.network/docu
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'OnePaySDK'
+pod '1PaySDK'
 ```
 
 Then run `pod install` command
@@ -39,9 +39,9 @@ pod install
 
 ### Swift Package Manager
 [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
-> Xcode 11+ is required to build OnePaySDK using Swift Package Manager.
+> Xcode 11+ is required to build 1PaySDK using Swift Package Manager.
 
-To integrate OnePaySDK into your Xcode project using Swift Package Manager, add it to the dependencies value of your `Package.swift`:
+To integrate 1PaySDK into your Xcode project using Swift Package Manager, add it to the dependencies value of your `Package.swift`:
 
 ```swift
 dependencies: [

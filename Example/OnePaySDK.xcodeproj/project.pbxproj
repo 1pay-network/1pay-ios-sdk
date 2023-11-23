@@ -29,7 +29,6 @@
 
 /* Begin PBXFileReference section */
 		0DED4C849A3B8D9A9F6137F9 /* Pods-OnePaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnePaySDK_Example.release.xcconfig"; path = "Target Support Files/Pods-OnePaySDK_Example/Pods-OnePaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		321289857A1C199FA2726DA3 /* OnePaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OnePaySDK.podspec; path = ../OnePaySDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3E0D3D39E1E3B2D113D310B1 /* Pods_OnePaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnePaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0E7B098EC7DC8A953C22E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3F95BF95A8CAFC8432F866A5 /* Pods_OnePaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnePaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +131,6 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				321289857A1C199FA2726DA3 /* OnePaySDK.podspec */,
 				3F0E7B098EC7DC8A953C22E6 /* README.md */,
 				8D8C7D6FB949A35C8C92BD67 /* LICENSE */,
 			);
@@ -269,7 +267,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-OnePaySDK_Example/Pods-OnePaySDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/OnePaySDK/OnePaySDK.framework",
+				"${BUILT_PRODUCTS_DIR}/1PaySDK/OnePaySDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

@@ -1,16 +1,16 @@
 PODS:
-  - OnePaySDK (1.0.0)
+  - 1PaySDK (1.0.0-beta2)
 
 DEPENDENCIES:
-  - OnePaySDK (from `../`)
+  - 1PaySDK (~> 1.0.0-beta2)
 
-EXTERNAL SOURCES:
-  OnePaySDK:
-    :path: "../"
+SPEC REPOS:
+  trunk:
+    - 1PaySDK
 
 SPEC CHECKSUMS:
-  OnePaySDK: 6064791f843c1ba03704095fea74fab4697bfbca
+  1PaySDK: 81e9d0c1aca1929b35cfb2c893d9e127723867c2
 
-PODFILE CHECKSUM: 3ae38335e250e7393b9be99faa689afc64ca0503
+PODFILE CHECKSUM: 13faf9e4bf73d00ec6d99e7bb5cd1b63aa27e5a0
 
-COCOAPODS: 1.13.0
+COCOAPODS: 1.14.3
