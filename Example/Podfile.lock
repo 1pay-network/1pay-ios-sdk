@@ -1,16 +1,16 @@
 PODS:
-  - 1PaySDK (1.0.0-beta2)
+  - 1PaySDK (1.0.0)
 
 DEPENDENCIES:
-  - 1PaySDK (~> 1.0.0-beta2)
+  - 1PaySDK (from `../`)
 
-SPEC REPOS:
-  trunk:
-    - 1PaySDK
+EXTERNAL SOURCES:
+  1PaySDK:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  1PaySDK: 81e9d0c1aca1929b35cfb2c893d9e127723867c2
+  1PaySDK: fbf65ec9c2cf570d633f2306c3ae95ebc6407485
 
-PODFILE CHECKSUM: 13faf9e4bf73d00ec6d99e7bb5cd1b63aa27e5a0
+PODFILE CHECKSUM: b0fad9cebbfc17d0e1c300c24cdf8753adb9d99e
 
 COCOAPODS: 1.14.3
